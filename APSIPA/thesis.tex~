@@ -1,0 +1,116 @@
+\documentclass[conference,a4paper]{APSIPA2018}
+%\usepackage{hashimoto}
+\usepackage{multirow}
+%\usepackage[dvips]{graphicx}
+\usepackage{amsmath}
+\usepackage[psamsfonts]{amssymb}
+\usepackage{amsxtra}
+\usepackage{threeparttable}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{subfigure}
+%\usepackege{multirow}
+%\setlength{\voffset}{-2.0cm}
+%\setlength{\hoffset}{-1cm}
+\begin{document}
+
+\title{Training Data Reduction using Support Vectors for Neural Networks}
+
+\author{%
+\authorblockN{%
+Toranosuke Tanio\authorrefmark{1} and
+Kouyab Takeda\authorrefmark{2}
+}
+%
+\authorblockA{%
+\authorrefmark{1}
+Osaka University, Osaka, Japan \\
+E-mail: t-tanio@ist.osaka-u.ac.jp  Tel/Fax: +81-090-6964-9088}
+%
+\authorblockA{%
+\authorrefmark{2}
+Northwestern Polytechnical University, Xi'an, Japan\\
+E-mail:   Tel/Fax: +86-29-XXXXXXXX}
+%
+}
+
+
+\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+  In the field of machine learning, deep learning is widely used to 
+improve versatility and accuracy by deepening the network. Deep learning 
+can achieve higher expression ability compared to conventional models 
+but requires large amounts of data and time for training. To tackle this 
+issue, we propose a training data reduction method using support vectors 
+(SVs) that are closest data to the classification boundary obtained by 
+Support Vector Machine (SVM). In this research, we use the training data 
+consisting of support vectors to training neural networks and evaluate 
+the effect. In the evaluation experiment, we confirmed that it is 
+possible to reduce the number of training data by about 12\% and reduce 
+the learning time of neural network by about 9.5\% by using ResNet, a 
+model of deep learning, and the CIFAR-10 data set.
+\end{abstract}
+
+\section{Introduction}
+\input{intro}
+
+
+\section{Related research}
+\input{relate}
+
+\section{Training data reduction in deep learning}
+\input{propose}
+
+%\renewcommand{\textheight}{98mm}
+
+%\newpage
+\section{Evaluation}
+\input{evaluate}
+
+\section{Conclusions}
+\input{conclusion}
+
+\section*{Acknowledgment}
+
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEfull,full,refs}
+
+%\begin{thebibliography}{1}
+
+%\bibitem{1}
+\if0
+G.~Eason, B.~Noble, and I.~N.~Sneddon, ``On certain integrals of
+Lipschitz-Hankel type involving products of Bessel functions,''
+\emph{Phil. Trans. Roy. Soc. London,} vol. A247, pp. 529-551, April
+1955.
+
+\bibitem{2}
+J.~Clerk~Maxwell, \emph{A Treatise on Electricity and Magnetism,}
+3$^{\rm rd}$ ed., vol. 2. Oxford: Clarendon, 1892, pp.68-73.
+
+\bibitem{3}
+I.~S.~Jacobs and C.~P.~Bean, ``Fine particles, thin films and exchange
+anisotropy,'' in \emph{Magnetism,} vol. III, G.T. Rado and H. Suhl,
+Eds. New York: Academic, 1963, pp. 271-350.
+
+\bibitem{4}
+K.~Elissa, ``Title of paper if known,'' unpublished.
+
+\bibitem{5}
+R.~Nicole, ``Title of paper with only first word capitalized,''
+\emph{J. Name Stand. Abbrev.,} in press.
+
+\bibitem{6}
+Y.~Yorozu, M.~Hirano, K.~Oka, and Y.~Tagawa, ``Electron spectroscopy
+studies on magneto-optical media and plastic substrate interface,''
+\emph{APSIPA Transl. J. Magn. Japan,} vol. 2, pp. 740-741, August 1987
+[\emph{Digests 9$^{\rm th}$ Annual Conf. Magnetics Japan,} p. 301,
+1982].
+
+\bibitem{7}
+M.~Young, \emph{The Technical Writer's Handbook.} Mill Valley, CA:
+University Science, 1989.
+\fi
+%\end{thebibliography}
+\end{document}

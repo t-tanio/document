@@ -1,0 +1,59 @@
+This is pBibTeX, Version 0.99d-j0.33 (utf8.euc) (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: thesis.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: IEEEfull.bib
+Database file #2: full.bib
+Database file #3: refs.bib
+-- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 12 entries,
+            4039 wiz_defined-function locations,
+            1460 strings with 26500 characters,
+and the built_in function-call counts, 9791 in all, are:
+= -- 770
+> -- 231
+< -- 87
++ -- 128
+- -- 37
+* -- 480
+:= -- 1407
+add.period$ -- 24
+call.type$ -- 12
+change.case$ -- 13
+chr.to.int$ -- 216
+cite$ -- 12
+duplicate$ -- 687
+empty$ -- 809
+format.name$ -- 48
+if$ -- 2264
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 123
+newline$ -- 59
+num.names$ -- 12
+pop$ -- 289
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 744
+stack$ -- 0
+substring$ -- 518
+swap$ -- 578
+text.length$ -- 15
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 12
+warning$ -- 0
+while$ -- 48
+width$ -- 14
+write$ -- 134
+is.kanji.str$ -- 0
